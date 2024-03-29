@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition gallery</title>
+    <style>
+        div{
+            display: flex;
+            flex-wrap: wrap;  
+            gap: 5px;
+          height: 100%;
+          width: 700px;
+           
+            border: 2px solid purple;
+           
+        }
+        img{  
+            height: 100px;
+            width: 100px; 
+            transition: all 0.2 ease;  
+        }
+        .img1{
+            flex-grow: 1;
+        }
+        .img2{
+            flex-grow: 3;
+        }
+        .img3{
+            flex-grow: 4;
+        }
+        .cd:hover{
+            height: 50%;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <img  class=" cd img1" src ="./bfly3.jpeg">
+    <img class="cd img2" src="./rk7.jpeg">
+    <img class="cd img3" src="./bfly6.jpg">
+  
+   
+    </div>
+    
+    
+</body>
+</html>
